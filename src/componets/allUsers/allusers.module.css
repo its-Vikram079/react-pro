@@ -1,0 +1,45 @@
+#cardWrapper{
+    /* height: calc(100vh - 80px); */
+    width: 95%;
+    display: flex;
+    align-items:start ;
+    justify-content: start;
+    gap: 40px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+#cardContainer{
+    min-height: 150px;
+    min-width: 250px;
+
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgb(31, 30, 30);
+}
+.btnContainer{
+    display: flex;align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+
+}
+.btnContainer>button{
+    padding: 4px 10px;
+    border: none;
+    border-radius: 3px ;
+    cursor: pointer;
+    background-color: gainsboro;
+    font-weight: 600;
+}
+.btnContainer>button:first-of-type:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+.btnContainer>button:last-of-type:hover{
+    background-color: tomato;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}

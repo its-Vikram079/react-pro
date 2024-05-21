@@ -1,0 +1,43 @@
+#formWrapper{
+    height: calc(100vh - 80px);
+width: 100%;
+    background-color: rgb(131, 134, 134);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formContainer{
+        padding: 20px;
+        width: 50%;
+        border: 1px solid black;
+        background-color: rgb(138, 116, 116);      
+}
+
+.formGroup {
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.formGroup >input {
+padding: 10px 15px;
+border-radius: 5px;
+border: 1px solid black;
+outline: none;
+background-color: aqua;
+
+}
+
+.formGroup > button {
+padding: 10px 5px;
+font-size: large;
+font-weight: 600;
+border: none;
+background-color: gainsboro;
+cursor: pointer;
+}
+.formGroup > button:hover {
+background-color: aliceblue;
+color: tomato;
+border: 1px solid yellow;
+}

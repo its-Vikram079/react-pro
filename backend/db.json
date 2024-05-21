@@ -1,0 +1,25 @@
+{
+  "employeee": [
+    {
+      "id": "377e",
+      "name": "Sandeep Singh",
+      "email": "sandeep@gamil.com",
+      "phoneNo": "09464481718",
+      "password": "jdjheh23"
+    },
+    {
+      "id": "6adc",
+      "name": "Vikramjeet Singh jassal",
+      "email": "vikramjassal01@gmail.com",
+      "phoneNo": "06284051521",
+      "password": "kgeggegd"
+    },
+    {
+      "id": "d522",
+      "name": "jaspreet kaur mattad",
+      "email": "jass@gamil.com",
+      "phoneNo": "7637534536753",
+      "password": "jass@345"
+    }
+  ]
+}
